@@ -9,17 +9,34 @@ body {
 
 section.header {
   align-content: center;
+  background-color: #ECF0F5;
+
+
 }
 
+section.header nav {
+  display: flex;
+  justify-content: space-between;
+  border-top-style: solid;
+  border-top-color: #ff0000;
+  margin: 0 30px;
+}
+
+section.header .search {
+  padding-right: 30px;
+  padding-top: 20px;
+  max-height: 1em;
+}
 section.header ul{
+  margin: 0;
   display: flex;
   flex-direction: row;
   align-content: center;
   color: #2A2C2E;
-  background-color: #ECF0F5;
   max-height: 55px;
   list-style-type: none;
   font: "helvetica";
+  text-decoration: none;
 
 }
 
@@ -27,18 +44,22 @@ section.header li{
   padding: 20px 20px;
   align-content: center;
   max-width: 5em;
-  border-top-style: solid;
-  border-top-color: #ff0000;
   font: "helvetica";
+  text-decoration: none;
+
+}
+section.header li a{
+  text-decoration: none;
+  color: #333333;
+}
+section.header li:hover {
+    background-color: #6a737b;
 }
 
 section.header li img{
   max-height: 1em;
 }
-section.header li:last-child{
-  padding: 20px 20px 20px 600px;
-  align-content: right;
-}
+
 h1{
   text-align: center;
   font: "helvetica";
@@ -46,4 +67,47 @@ h1{
 h2{
   text-align: center;
   font: 20px "helvetica";
+}
+.images{
+  justify-content: space-between;
+  display: flex;
+
+}
+.G1{
+
+  padding-left: 20%;
+  align-self: flex-start;
+
+
+}
+.G2{
+  padding-right: 25%;
+  align-self: flex-start;
+}
+.lowerText{
+  justify-content: space-between;
+  display: flex;
+
+}
+.whatnew{
+  padding-left: 20%;
+
+}
+.whatnew h4{
+  color: #fd5c63;
+  width: 250px;
+
+}
+
+.filler p{
+  column-gap: 5px;
+  column-count: 3;
+  padding-right: 25%;
+
+
+}
+.filler h4{
+  color: #333333;
+
+
 }
