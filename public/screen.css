@@ -6,3 +6,44 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+section.header {
+  align-content: center;
+}
+
+section.header ul{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  color: #2A2C2E;
+  background-color: #ECF0F5;
+  max-height: 55px;
+  list-style-type: none;
+  font: "helvetica";
+
+}
+
+section.header li{
+  padding: 20px 20px;
+  align-content: center;
+  max-width: 5em;
+  border-top-style: solid;
+  border-top-color: #ff0000;
+  font: "helvetica";
+}
+
+section.header li img{
+  max-height: 1em;
+}
+section.header li:last-child{
+  padding: 20px 20px 20px 600px;
+  align-content: right;
+}
+h1{
+  text-align: center;
+  font: "helvetica";
+}
+h2{
+  text-align: center;
+  font: 20px "helvetica";
+}
